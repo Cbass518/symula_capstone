@@ -1,0 +1,120 @@
+\documentclass[12pt]{article}
+\usepackage{graphicx}  % Required for inserting images
+\usepackage{fancyhdr}  % For custom headers
+\usepackage{geometry}  % To adjust page margins
+\usepackage{hyperref}  % To include hyperlinks
+
+% Set page margins
+\geometry{top=1in, bottom=1in, left=1in, right=1in}
+
+% Header and Footer customization
+\pagestyle{fancy}
+\fancyhead[L]{Peer Review Feedback}
+\fancyhead[C]{Sebastian Symula - Capstone Project}
+\fancyhead[R]{March 24, 2025}
+\fancyfoot[C]{Page \thepage}
+
+\title{\textbf{Peer Review Feedback --- Sebastian Symula's Capstone Project}}
+\author{Jack Bienvenue}
+\date{March 24, 2025}
+
+\begin{document}
+
+\maketitle
+
+\section*{Summary of Peer Review Partner's Paper}
+Sebastian has chosen to focus his capstone project on a well-known phenomenon in baseball: the deterioration of pitcher performance throughout the course of a major league baseball game. This phenomenon is an important one to team performance, as Sebastian asserts that withdrawing a starting pitcher too late, or drawing him out too early, can be taxing to the starting pitcher or relievers respectively and harm outcomes for a team as tired pitchers and pitchers who have pitched to the same batters multiple times tend to give up more walks and base hits. His paper seeks to use a variety of statistical techniques including T-tests, ANOVA, and linear regression to glean insights into pitcher performance deterioration over the period of the game. He plans to determine the presence of several different trends in pitchers which correspond to diminishing performance as the game progresses using the aforementioned methods.
+
+\section*{Strengths of Paper}
+
+The construction of the paper is thoughtful and very promising! I enjoyed reviewing it very much. The topic and proposed methods are excited, and I like the dynamic approach proposed to target multiple indicators of slumping performance for pitchers. In the baseball world, this analysis is very important and informs decision making for the most major preventative or damage control action available to coaching staff during a baseball game.
+
+\section*{Major Concerns}
+
+Please note that the following comments address the draft paper as it exists presently, but I know that many of these issues would be fixed without suggestions being made as the analysis and writing process progresses! :)
+
+\begin{itemize}
+    \item The overall tone of the text could be improved to ensure that the voice is active and that statements made are authoritative when appropriate. Instances are listed in the ``minor concerns" section. (See line 6, line 8, etc.)
+    \item They are some formatting issues which affect the readability of the paper at present, though I fully expect that for the final submission Sebastian would have corrected these on his own. Examples again are listed in ``minor concerns." An example is:
+        \begin{itemize}
+            \item Line 111 - There is an issue with how the ``Some Visualizations" subsection is positioned relative to the figure. The figure generates after unrelated texts because of its size and positioning verb. In the final draft, the formatting of the pages will have to be adjusted to ensure proper placement of the figures. In addition, references to the figures should be made in the text. The figures look great and are informative.
+        \end{itemize}
+    \item Some structural issues remain, mostly including sparse results, the absence of the discussion section, and a limited quantity of citations. These issues are chiefly caused by the analysis/ writing process still being in the early stages, and resolution will be very natural as more is written. Attaining the page count will be important.
+\end{itemize}
+
+\section*{Minor Concerns \& Comments}
+
+The minor concerns mentioned in this section are one-time errors or otherwise small details that can be used to improve the paper. These range from some examples of the major concerns to some subjective and ``nit-picky" concerns which are up to Sebastian's discretion to observe. 
+
+\section*{Abstract}
+
+\begin{itemize}
+    \item \textbf{Line 6:} If you can, open with a hook statement which establishes curiosity in the question to be answered in the paper.
+    \item \textbf{Line 8:} Name the question first, then address methods: "A variety of methods are employed including t-tests,..."
+    \item \textbf{Line 10:} Close out the abstract with a suggestion of the conclusions made in the paper.
+    \item \textbf{Line 11:} Some good keywords may include "Baseball", "MLB", "Statcast."
+\end{itemize}
+
+\section*{Introduction}
+
+\begin{itemize}
+    \item \textbf{Line 13:} Active voice in the first sentence may start the introduction with the best tone. Maybe substitute "aspect" for "element" or another word.
+    \item \textbf{Line 13-14:} Maybe flip the second sentence around so that the pitchers are mentioned first to align with the first sentence.
+    \item \textbf{Lines 16-18:} Good opportunity for a parenthetical citation related to pitcher salaries in the MLB and pitcher performance decline during a game.
+    \item \textbf{Line 18:} Maybe restructure the final clause. Perhaps "increasing the probability of at-bats resulting in base hits or walks."
+    \item \textbf{Line 19:} You could mention this as a potential effect ('When starting pitchers tire...') to allow flexibility for circumstances where an opener is used, a starter is pulled prematurely for rest, etc.
+    \item \textbf{Line 21:} "The reliever, who is typically less reliable, enters, often with baserunners already present."
+    \item \textbf{Line 25:} Add a short clause to explain what the bullpen is in case readers don't know baseball lingo.
+    \item \textbf{Line 26-29:} I like this sentence to end the paragraph a lot!
+    \item \textbf{Lines 31 \& 35:} I like the references to baseball as a well-studied sport and your mention of a particular study on a similar topic. In lines 31 \& 35, go ahead and replace \texttt{\textbackslash citep} with \texttt{\textbackslash citet}.
+    \item \textbf{Line 38:} First person pronoun can be substituted for more authoritative language.
+    \item \textbf{Line 41:} "A paper from \textbackslash citet\{ganeshapillai...\} created..."
+    \item \textbf{Lines 46-47:} You can restructure this sentence to add authority: "To ensure that results are more representative, averages for each starting paper will be used in this analysis," also clarify what the averages are from.
+    \item \textbf{Lines 49-51:} I like the inclusion of the roadmap paragraph. It looks like the discussion section got lopped off, so the \texttt{\textbackslash ref\{\}} is broken there.
+\end{itemize}
+
+\section*{Data Description}
+
+\begin{itemize}
+    \item \textbf{Lines 53-55:} Clip template text when you get the chance.
+    \item \textbf{Line 56:} I like the opening to this paragraph.
+    \item \textbf{Line 57:} Mention what CSAS is.
+    \item \textbf{Lines 74-81:} I like the ideas mentioned in this paragraph.
+    \item \textbf{Line 80:} Substitute "i.e." with "e.g." for "for example," and include it as a clause at the end of the previous sentence. Or keep it as an individual sentence and use "For example,".
+    \item \textbf{Line 82:} Cut template text when you're able.
+    \item \textbf{Line 85:} Maybe provide some sample data in here in a table.
+    \item \textbf{Line 100:} I like the inclusion of this equation!
+    \item \textbf{Lines ~100:} I like the detail given to covariates.
+\end{itemize}
+
+\section*{Methods}
+
+\begin{itemize}
+    \item \textbf{Lines ~114:} Nice use of in-text equations.
+    \item \textbf{Top of page 6:} Nice figures! Perfect figure type for this scenario. Make sure these fall nearby where they are mentioned in the text.
+    \item \textbf{The rest of the mentioned methods:} Look good! Excited to see results.
+\end{itemize}
+
+\section*{Results}
+
+\begin{itemize}
+    \item So far, so good! Looking forward to hearing more about this.
+\end{itemize}
+
+\section*{Discussion}
+
+\begin{itemize}
+    \item Make sure the discussion is present for upcoming deliverables.
+\end{itemize}
+
+\section*{References}
+
+\begin{itemize}
+    \item References look like the style file and .bib file are set up well. Nice job! A source for the ``B. Perry" citation would be helpful.
+\end{itemize}
+
+\section*{Conclusion}
+
+Overall, Sebastian’s paper presents a solid foundation for understanding the phenomenon of pitcher performance deterioration in baseball. With some revisions and further development in the areas mentioned above, it could become an excellent contribution to understanding pitcher deterioration and could lay the groundwork for future work that Sebastian might be interested in relating to baseball analytics. I like what I see so far very much!
+
+\end{document}

@@ -1,0 +1,137 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{natbib}
+\usepackage{enumerate,amsmath,amssymb}
+\usepackage{rotating}
+\usepackage[colorlinks, linkcolor = blue, citecolor = blue]{hyperref}
+\parskip=3mm
+\newenvironment{comment}%
+{\begin{quotation}\small\it\noindent\ignorespaces%
+}{\end{quotation}}
+
+
+%\usepackage{color} % include if you want to have colored text
+%\newcommand{\blue}{\color{blue}}  
+
+
+\begin{document}
+\begin{center} \Large \bf
+  Response to Reviewer
+\end{center}
+
+\subsection*{Summary}
+
+Begin by thanking the reviewer for carefully reading your work. When 
+you submit the response-to-reviewers document with the first draft, 
+the reviewer is your peer reviewer. When you submit the 
+response-to-reviewers document with the final paper, the reviewer is your 
+instructor.  
+
+Refer to Note 7 on the HuskyCT STAT4916W website for more details, guidelines, 
+and tips.
+
+The manuscript has been revised accordingly with the following major changes:
+\begin{enumerate}
+\item I made this broad-level change;
+\item I also made this broad-level change;
+\item Finally, I also made this broad-level change.  
+\item ~[Note: the items here are just for summarizing the changes; the 
+specific responses to each reviewer comment are to be provided in the 
+Point-by-point responses below.]
+\end{enumerate}
+
+The point-by-point responses are as follows.
+
+\subsection*{Point-by-point responses}
+
+\textbf{Major Comments}
+
+\begin{comment}
+	This is where you insert the reviewer's first major comment. Copy their 
+	concern verbatim here. It will be indented and appear in italics.
+\end{comment}
+
+
+This is where you respond to the reviewer's first major comment.
+
+
+\begin{comment}
+	This is where you insert the reviewer's second major comment, again  
+	taken verbatim from the reviewer report.  
+\end{comment}
+
+
+This is where you respond to the reviewer's second major comment. 
+
+
+\begin{comment}
+Page 2, line 18: It is stated that ``Another author proposes a solution
+that disentangles the parameters of interest using limited data'' but then later
+in line 27 you appear to contradict yourself by stating ``the limited data is not 
+fit for our purpose.''  Can you please clarify?
+\end{comment}
+
+Thank you for identifying this issue. The apparent contradiction is due to the 
+lack of clarity in my original statements.  The approach in the literature 
+allows parameters of the model to be estimated, but the properties of the 
+underlying data generating process cannot be determined.  Therefore we conclude
+that the limited data is not fit for our purpose.  We have change the first
+quoted sentence to be more clear in the revised manuscript: 
+``Another author proposes a solution that disentangles the parameters of 
+interest using limited data, but the properties of the underlying data 
+generating process cannot be determined.''
+
+
+\begin{comment}
+Pages 3-4, Section 2: Given that a key aspect of the paper is data 
+visualization, one way to improve the paper would be to include more graphical
+displays.  More specifically, images that are more exciting and tell a stronger
+story about the data would be useful in Section 2. 
+\end{comment}
+
+This is a great suggestion. I have now added density plots and side-by-side 
+boxplots to show the distribution of house sale prices (on the log-scale) 
+for the 10 largest cities in Connecticut in 2020 (see Figures 2 and 3 in the 
+revised manuscript).
+
+\begin{comment}
+	This is where you insert the reviewer's next major comment, again  
+	taken verbatim from the reviewer report.  
+\end{comment}
+
+This is where you respond to the reviewer's next major comment. 
+
+\bigskip
+
+Continue in this fashion until you have addressed \textit{all} of the reviewer's 
+concerns, both major and minor.
+
+\textbf{Minor Comments}
+
+\begin{comment}
+\item Page 3, lines 18-20: What is meant by ``As we collected data, we 
+periodically discarded entries that did not have location data and contain
+one of our attributes of interest.''  Does ``not''  modify both clauses?
+\end{comment}
+
+No, ``not'' does not modify both clauses.  Just is now clarified in the revised
+manuscript as: ``Observations without location data or other attributes of 
+interest were discard from the analysis.'' 
+
+\begin{comment}
+\item Page 7, line 5: Change ``was'' to ``were'' in ``The data was collected 
+$\ldots$''.
+\end{comment}
+
+Thank you, revised as such.  
+
+\bigskip
+
+If references need to be cited anywhere above, the complete references should be 
+included here at the end (using, e.g., refs.bib with mcap.sty in the 
+commented-out text below.)
+
+%\bibliography{refs}
+%\bibliographystyle{mcap} 
+
+\end{document}
